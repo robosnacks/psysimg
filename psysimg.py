@@ -18,7 +18,7 @@ def main ():
      group.add_argument("-e", "--image-to-extract", type=str, help="image to extract a specified unit from")
      group.add_argument("-u", "--image-to-update", type=str, help = "image to be updated with a specified modified unit")
      parser.add_argument("volume", type=str, help=".vol file to be extracted or to update image with")
-     parser.add_argument("unit", type=str, choices=["4","5","9","10","11","12"] help="unit #, can be 4,5,9,10,11 or 12")
+     parser.add_argument("unit", type=str, choices=["4","5","9","10","11","12"], help="unit #, can be 4,5,9,10,11 or 12")
      args = parser.parse_args()
 
      if args.image_to_extract:

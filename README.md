@@ -23,4 +23,4 @@ The .vol file can then be read/written using Ciderpress.
 
 Once you have finished you can then patch the modified .vol image back in to the main orginal disk image, which can be subsequently written back to your SD card:
 
-`python .\psysing.py -u sc130.img unit5.vol 5`
+`python .\psysimg.py -u sc130.img unit5.vol 5`

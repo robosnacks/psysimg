@@ -21,6 +21,6 @@ Extract disk unit \#5 from disk image sc130.img and save it as unit5.vol
 
 The .vol file can then be read/written using Ciderpress.
 
-Once you have finished you can then patch the modified .vol image back in to the main orginal disk image:
+Once you have finished you can then patch the modified .vol image back in to the main orginal disk image, which can be subsequently written back to your SD card:
 
 `python .\psysing -u sc130.img unit5.vol 5`

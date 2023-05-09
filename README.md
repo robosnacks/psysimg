@@ -17,10 +17,10 @@ The patched image can then be written back to the storage device.
 
 Extract disk unit \#5 from disk image sc130.img and save it as unit5.vol
 
-`python .\psysimg -e sc130.img unit5.vol 5`
+`python .\psysimg.py -e sc130.img unit5.vol 5`
 
 The .vol file can then be read/written using Ciderpress.
 
 Once you have finished you can then patch the modified .vol image back in to the main orginal disk image, which can be subsequently written back to your SD card:
 
-`python .\psysing -u sc130.img unit5.vol 5`
+`python .\psysing.py -u sc130.img unit5.vol 5`
